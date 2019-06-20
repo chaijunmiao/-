@@ -1,0 +1,192 @@
+/* best.css */
+*{font-size: 12px; font-family: "times new roman";color: #828282;}
+body{width: 100%;
+ height: 800px;
+  padding: 2px;
+   margin: 10px auto;
+   }
+#header{width: 100%;
+ height: 120px;
+  background: #FFFFFF;}
+#logo{width: 100%;
+ height: 80px;
+  float: left;
+   background: #FFFFFF 
+    url(logo.jpg) no-repeat  bottom;
+	text-align: center;}
+
+#nav{clear: both;
+ width: 100%;
+  height: 40px; 
+  background: #ebebeb;}
+#picture{width: 100%;
+ height: 600px;
+  background:  url(background.gif);
+  background-size:100% 100%;
+  }
+a:link,a:visited,a:active{text-decoration: none;}
+a:link,a:visited,a:active{color: #828282;}
+#nav a:hover{color: #bf0000;
+text-decoration: none;}
+#nav td{width: 165px; 
+height: 40px;
+ text-align: center;
+ vertical-align: middle;}
+#line{background: url("line.jpg") no-repeat right center;}
+#footer p{margin-top: 20px; 
+text-align: center;
+color: #333333;}
+
+
+
+.line{
+    letter-spacing: -1px;
+    color: #ddd;
+}
+.line span{
+    letter-spacing: 0; 
+    margin:0 20px;
+	font-size: 40px;
+}
+
+
+#场景地图{
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	z-index: 0;
+	position: absolute;
+}
+#场景地图-图片{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+}
+#场景地图-文字{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 30px;
+	font: italic bolder 24px/1.5em 黑体;
+	text-indent: 2em;
+	z-index: 2;
+	position: absolute;
+	top: 200px;
+}
+.hoverbox{cursor: default; list-style: none;}
+.hoverbox a{cursor: default;}
+.hoverbox a .preview {display: none;}
+.hoverbox a:hover .preview{
+	display:block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+	}
+.hoverbox img{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 250px;
+	height: 139px;
+}
+.hoverbox li{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	float: left;
+	display: inllne;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+.hoverbox .preview{
+	border-color: #000;
+	width: 500px;
+	height: 300px;
+}
+ul{
+	padding: 40px;
+	margin: 0 auto;
+}
+
+#人物介绍{
+	width: 100%;
+	height: 290px;
+	margin: 350px auto;
+	z-index: 0;
+	position: absolute;
+}
+#人物介绍-图片{
+	width: 60%;
+	height: 250px;
+	 float: left;
+	 background: url(BG1.jpg);
+	 background-size:100% 100%;
+	 margin: 40px auto;
+	 z-index: 1;
+	 position: absolute;
+}
+#人物介绍-文字{
+	width: 40%;
+	height: 250px;
+	z-index: 1;
+	position: absolute;
+	left: 60%;
+	top: 100px;
+}
+
+
+#背景故事{
+	width: 100%;
+	height: 380px;
+	/* background:red; */
+	margin: 800px 0 100px 0;
+	
+}
+#背景故事-图片{
+	width: 20%;
+	height: 315px;
+	margin: 0 0 0 40%;
+	background: url(BG2.jpg);
+	background-size:100% 100%;
+	position: absolute;
+}
+#背景故事-文字1{
+	width: 40%;
+	height: 380px;
+	float: left;
+	text-indent: 2em;
+}
+#背景故事-文字2{
+	width: 40%;
+	height: 380px;
+	float: right;
+	text-indent: 2em;
+}
+
+#精美CG{
+	width: 100%;
+	height: 540px;
+}
+#精美CG-图片{
+	width: 60%;
+	height: 540px;
+	position: absolute;
+}
+#精美CG-视频{
+	width: 40%;
+	height: 540px;
+	position: absolute;
+	left: 60%;
+}
